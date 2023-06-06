@@ -50,6 +50,7 @@ def noepyCheckType(data):
 
 #read it
 def noepyLoadModel(data, mdlList):
+    texList = []
     texList = LoadTextures(data, texList)
     mats = []
 
